@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* * {
+    cursor: none;
+} */
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(61, 62, 66);
+}
+
+.container {
+    min-height: 20vh;
+    min-width: auto;
+    background-color: rgb(41, 42, 46);
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 300;
+    font-size: large;
+    border-bottom: 5px solid black;
+    
+}
+
+.input {
+    border: 2px solid rgb(41, 42, 46);
+    width: 40%;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+    }
+.input input {
+    margin: 5px;
+}
+.container h1 {
+    margin: auto 20px;
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    
+}
+
+.container ul > li {
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid rgb(61, 62, 66);
+    border-radius: 40px;
+}
+
+.container img {
+    min-height: 15vh;
+    width: 80px;
+    display: flex;
+    border-radius: 60px;
+    position: absolute;
+    right: 0;
+    margin: auto 20px;
+    border: 5px solid rgb(61, 62, 66)
+}
+/* 
+.cursor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    /* transform: translate(-50%, -50%); */
+    pointer-events: none;
+} */
+/* 
+.cursor::after, .cursor::before {
+    content: '';
+    position: absolute;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.cursor::before {
+    background-color: white;
+}
+.cursor.click::before{
+    animation: click 1s ease forwards;
+    background-color: white;
+}
+
+@keyframes click {
+    0%{
+        opacity: 1;
+        transform: translate(-50%,-50%) scale(1);
+    }
+    100%{
+        opacity: 0;
+    }
+} */
